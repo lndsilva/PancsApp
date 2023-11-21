@@ -17,8 +17,8 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
         android:layout_centerInParent="true"
         android:contentDescription="@string/login"
         android:scaleType="centerCrop"
