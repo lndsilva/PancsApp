@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#14151E"
+    android:background="@color/corLogoFundo"
     tools:context=".SplashActivity">
 
     <ImageView
@@ -12,17 +11,18 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_centerInParent="true"
+        android:contentDescription="@string/login"
         android:scaleType="centerCrop"
         android:src="@drawable/pancs" />
 
     <com.google.android.material.progressindicator.LinearProgressIndicator
         android:id="@+id/idLProgress"
+        style="@style/Widget.Material3.CircularProgressIndicator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:indeterminate="true"
+        android:layout_below="@+id/imgLogo"
         android:layout_marginLeft="30dp"
-        style="@style/Widget.Material3.CircularProgressIndicator"
         android:layout_marginRight="30dp"
-        android:layout_below="@+id/imgLogo" />
+        android:indeterminate="true" />
 
 </RelativeLayout>

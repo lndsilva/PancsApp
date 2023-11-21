@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corLogoFundo"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/corLogoFundo">
+
+        <ImageView
+            android:id="@+id/imgLogoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="@string/logo_login"
+            android:src="@drawable/logo_pancs" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgLogoLogin"
+            android:hint="@string/username"
+            app:endIconMode="clear_text"
+            app:hintTextColor="@color/corFonte"
+            app:startIconDrawable="@drawable/baseline_person">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:maxLength="50" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idUsuario"
+            android:hint="@string/password"
+            app:endIconMode="password_toggle"
+            app:hintTextColor="@color/corFonte"
+            app:startIconDrawable="@drawable/baseline_lock_person">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:maxLength="20" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/idRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idPassword"
+            android:layout_marginTop="10dp"
+            android:text="@string/remember_me"
+            android:textColor="@color/corFonte" />
+
+        <TextView
+            android:id="@+id/idForgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idPassword"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="10sp"
+            android:text="@string/forget_password"
+            android:textAllCaps="true"
+            android:textColor="@color/corFonte" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idRememberMe"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:text="@string/login"
+            android:textAllCaps="true" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCreateAccount"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLogin"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:text="@string/create_account"
+            android:textAllCaps="true" />
+    </RelativeLayout>
+</RelativeLayout>

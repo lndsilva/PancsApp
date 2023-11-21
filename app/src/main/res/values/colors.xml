@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="colorPrimary">#126A04</color>
+    <color name="corFundo">#147404</color>
+    <color name="corFonte">#FFF</color>
+    <color name="corLogoFundo">#14151E</color>
 </resources>
