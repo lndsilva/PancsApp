@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/corLogoFundo"
+    android:background="#fff"
     tools:context=".LoginActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
-        android:background="@color/corLogoFundo">
+        android:background="#fff">
 
         <ImageView
             android:id="@+id/imgLogoLogin"

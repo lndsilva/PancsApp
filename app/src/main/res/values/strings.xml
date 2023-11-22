@@ -7,4 +7,6 @@
     <string name="login">Login</string>
     <string name="create_account">Create Account</string>
     <string name="forget_password">Forget Password</string>
+    <string name="curiosidades">Curiosidades</string>
+    <string name="galeria">Galeria</string>
 </resources>
