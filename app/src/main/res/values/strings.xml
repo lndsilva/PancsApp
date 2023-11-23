@@ -9,4 +9,6 @@
     <string name="forget_password">Forget Password</string>
     <string name="curiosidades">Curiosidades</string>
     <string name="galeria">Galeria</string>
+    <string name="por_favor_preencha_os_campos_a_seguir">Por favor, preencha os campos a seguir</string>
+    <string name="nome_completo">Nome completo</string>
 </resources>
