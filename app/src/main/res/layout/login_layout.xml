@@ -73,6 +73,9 @@
             android:id="@+id/btnLoginForgetPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/idPassword"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/idRememberMe"
             android:text="Forget Password" />
 
         <com.google.android.material.button.MaterialButton

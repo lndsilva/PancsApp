@@ -8,13 +8,14 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 
 public class ForgetPasswordActivity extends AppCompatActivity {
     MaterialToolbar idToolBarForgetPassIcon;
-    FloatingActionButton FABCadastrarCliente;
+    ExtendedFloatingActionButton FABCadastrarCliente;
 
     Snackbar snackbar;
 
