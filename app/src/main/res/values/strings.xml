@@ -11,4 +11,6 @@
     <string name="galeria">Galeria</string>
     <string name="por_favor_preencha_os_campos_a_seguir">Por favor, preencha os campos a seguir</string>
     <string name="nome_completo">Nome completo</string>
+    <string name="e_mail">E-mail</string>
+    <string name="img_voltar">voltar</string>
 </resources>
