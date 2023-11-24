@@ -71,12 +71,16 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnLoginForgetPassword"
+            style="@style/Widget.Material3.Button.TextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/idPassword"
+            android:layout_below="@id/idPassword"
+            android:layout_alignEnd="@+id/idPassword"
             android:layout_marginTop="10dp"
-            android:layout_toEndOf="@+id/idRememberMe"
-            android:text="Forget Password" />
+            android:text="Forget Password"
+            android:textAllCaps="true"
+            android:textColor="@color/corFonte"
+            android:textSize="15sp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnLogin"
